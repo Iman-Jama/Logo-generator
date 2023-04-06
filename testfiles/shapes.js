@@ -13,7 +13,7 @@ class Shape {
 class Circle extends Shape {
     constructor(colour) {
       super('circle', colour);
-      this.radius = radius;
+  
     }
   
     renderShape() {
@@ -23,7 +23,7 @@ class Circle extends Shape {
 
   class Square extends Shape {
     constructor(colour) {
-      super('Square',colour);
+      super('square',colour);
     }
   
     renderShape() {
@@ -33,7 +33,7 @@ class Circle extends Shape {
 
   class Triangle extends Shape {
     constructor(colour) {
-      super('Triangle',colour);
+      super('triangle',colour);
     }
   
     renderShape() {
@@ -41,4 +41,4 @@ class Circle extends Shape {
     }
   }
 
-  module.exports = { Circle, Triangle, Square }
+  module.exports = { Shape,Circle, Triangle, Square }
